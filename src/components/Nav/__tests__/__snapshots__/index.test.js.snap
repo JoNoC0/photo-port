@@ -1,4 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
+<<<<<<< HEAD
 exports[`Nav component matches snapshot 1`] = `
 <DocumentFragment>
   <header
@@ -7,6 +8,14 @@ exports[`Nav component matches snapshot 1`] = `
     <h2>
       <a
         data-testid="link"
+=======
+
+exports[`Nav component matches snapshot 1`] = `
+<DocumentFragment>
+  <header>
+    <h2>
+      <a
+>>>>>>> feature/react-tests
         href="/"
       >
         <span
@@ -26,19 +35,57 @@ exports[`Nav component matches snapshot 1`] = `
           class="mx-2"
         >
           <a
+<<<<<<< HEAD
             data-testid="about"
+=======
+>>>>>>> feature/react-tests
             href="#about"
           >
             About me
           </a>
         </li>
+<<<<<<< HEAD
         <li
           class="mx-2"
         >
+=======
+        <li>
+>>>>>>> feature/react-tests
           <span>
             Contact
           </span>
         </li>
+<<<<<<< HEAD
+=======
+        <li
+          class="mx-1"
+        >
+          <span>
+            commercial
+          </span>
+        </li>
+        <li
+          class="mx-1"
+        >
+          <span>
+            portraits
+          </span>
+        </li>
+        <li
+          class="mx-1"
+        >
+          <span>
+            food
+          </span>
+        </li>
+        <li
+          class="mx-1"
+        >
+          <span>
+            landscape
+          </span>
+        </li>
+>>>>>>> feature/react-tests
       </ul>
     </nav>
   </header>

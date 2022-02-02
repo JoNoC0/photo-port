@@ -13,18 +13,30 @@ describe('Nav component', () => {
 
   it('matches snapshot', () => {
     const { asFragment } = render(<Nav />);
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> feature/react-tests
     expect(asFragment()).toMatchSnapshot();
   });
 })
 
 describe('emoji is visible', () => {
   it('inserts emoji into the h2', () => {
+<<<<<<< HEAD
     const { getByLabelText } = render(<Nav />);
 
     expect(getByLabelText('camera')).toHaveTextContent('📸');
   });
 })
+=======
+  const { getByLabelText } = render(<Nav />);
+
+  expect(getByLabelText('camera')).toHaveTextContent('📸');
+  });
+})  
+>>>>>>> feature/react-tests
 
 describe('links are visible', () => {
   it('inserts text into the links', () => {

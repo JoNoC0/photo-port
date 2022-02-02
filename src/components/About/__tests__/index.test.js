@@ -6,7 +6,7 @@ import About from '..';
 
 afterEach(cleanup);
 
-describe('About component renders', () => {
+describe('About component', () => {
   it('renders', () => {
     render(<About />);
   });
