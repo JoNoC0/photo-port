@@ -6,7 +6,7 @@ import Nav from '..';
 
 afterEach(cleanup);
 
-describe('Nav component', () => {
+describe('Nav component renders', () => {
   it('renders', () => {
     render(<Nav />);
   });
@@ -14,10 +14,14 @@ describe('Nav component', () => {
   it('matches snapshot', () => {
     const { asFragment } = render(<Nav />);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> feature/react-tests
+=======
+    
+>>>>>>> feature/contact
     expect(asFragment()).toMatchSnapshot();
   });
 })
@@ -25,18 +29,24 @@ describe('Nav component', () => {
 describe('emoji is visible', () => {
   it('inserts emoji into the h2', () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     const { getByLabelText } = render(<Nav />);
 
     expect(getByLabelText('camera')).toHaveTextContent('📸');
   });
 })
 =======
+=======
+>>>>>>> feature/contact
   const { getByLabelText } = render(<Nav />);
 
   expect(getByLabelText('camera')).toHaveTextContent('📸');
   });
 })  
+<<<<<<< HEAD
 >>>>>>> feature/react-tests
+=======
+>>>>>>> feature/contact
 
 describe('links are visible', () => {
   it('inserts text into the links', () => {

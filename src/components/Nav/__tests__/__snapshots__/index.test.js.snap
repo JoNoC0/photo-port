@@ -1,6 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 <<<<<<< HEAD
+<<<<<<< HEAD
 exports[`Nav component matches snapshot 1`] = `
+=======
+
+exports[`Nav component renders matches snapshot 1`] = `
+>>>>>>> feature/contact
 <DocumentFragment>
   <header
     class="flex-row px-1"
@@ -8,6 +13,7 @@ exports[`Nav component matches snapshot 1`] = `
     <h2>
       <a
         data-testid="link"
+<<<<<<< HEAD
 =======
 
 exports[`Nav component matches snapshot 1`] = `
@@ -16,6 +22,8 @@ exports[`Nav component matches snapshot 1`] = `
     <h2>
       <a
 >>>>>>> feature/react-tests
+=======
+>>>>>>> feature/contact
         href="/"
       >
         <span
@@ -36,14 +44,19 @@ exports[`Nav component matches snapshot 1`] = `
         >
           <a
 <<<<<<< HEAD
+<<<<<<< HEAD
             data-testid="about"
 =======
 >>>>>>> feature/react-tests
+=======
+            data-testid="about"
+>>>>>>> feature/contact
             href="#about"
           >
             About me
           </a>
         </li>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <li
           class="mx-2"
@@ -51,10 +64,16 @@ exports[`Nav component matches snapshot 1`] = `
 =======
         <li>
 >>>>>>> feature/react-tests
+=======
+        <li
+          class="mx-2 undefined"
+        >
+>>>>>>> feature/contact
           <span>
             Contact
           </span>
         </li>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         <li
@@ -86,6 +105,8 @@ exports[`Nav component matches snapshot 1`] = `
           </span>
         </li>
 >>>>>>> feature/react-tests
+=======
+>>>>>>> feature/contact
       </ul>
     </nav>
   </header>
